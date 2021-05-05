@@ -3,18 +3,16 @@ package com.cardgame.model;
 public class PlayingCard {
 	private Rank rank;
 	private Suit suit;
-	private boolean faceup;
+	private boolean faceUp;
 	
-	public PlayingCard(Rank rank, Suit suit ) {
+	public PlayingCard(Rank rank, Suit suit) {
 		super();
 		this.rank = rank;
 		this.suit = suit;
 	}
-	
 	public Rank getRank() {
 		return rank;
 	}
-	
 	public Suit getSuit() {
 		return suit;
 	}
@@ -27,4 +25,5 @@ public class PlayingCard {
 		faceUp = !faceUp;
 		return faceUp;
 	}
+	
 }

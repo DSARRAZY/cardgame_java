@@ -23,5 +23,4 @@ public enum Rank {
 	public int value() {
 		return rank;
 	}
-
 }

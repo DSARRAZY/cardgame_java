@@ -1,11 +1,13 @@
 package com.cardgame.model;
 
+import java.util.List;
+
 public class Player {
 	private String name;
 	private Hand hand;
 	
+	
 	public Player(String name) {
-		super();
 		this.name = name;
 		hand = new Hand();
 	}
@@ -21,5 +23,9 @@ public class Player {
 	public PlayingCard removeCard() {
 		return hand.removeCard();
 	}
-
+	
+	public String getName() {
+		return name;
+	}
+	
 }

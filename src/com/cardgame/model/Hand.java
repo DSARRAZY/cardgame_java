@@ -1,10 +1,11 @@
 package com.cardgame.model;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Hand {
 	private List<PlayingCard> cards;
-	
+
 	public Hand() {
 		cards = new ArrayList<PlayingCard>();
 	}
@@ -20,4 +21,5 @@ public class Hand {
 	public PlayingCard removeCard() {
 		return cards.remove(0);
 	}
+	
 }
