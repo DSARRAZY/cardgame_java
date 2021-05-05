@@ -1,7 +1,7 @@
 package com.cardgame.games;
 
 import com.cardgame.controller.GameController;
-import com.cardgame.model.Deck;Damien
+import com.cardgame.model.Deck;
 import com.cardgame.view.View;
 
 public class Games {
